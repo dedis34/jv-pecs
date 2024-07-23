@@ -11,9 +11,6 @@ import core.mate.academy.service.producer.TruckProducer;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Your implementation of MachineService.
- */
 public class MachineServiceImpl implements MachineService<Machine> {
     private static final MachineProducer<Bulldozer> bulldozerProducer = new BulldozerProducer();
     private static final MachineProducer<Excavator> excavatorProducer = new ExcavatorProducer();
