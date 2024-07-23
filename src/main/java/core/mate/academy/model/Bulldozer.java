@@ -4,7 +4,10 @@ public class Bulldozer extends Machine {
     private double bladeWidth;
     private double weight;
 
-    public Bulldozer() {
+    public Bulldozer(String name, String color, double bladeWidth, double weight) {
+        super(name,color);
+        this.bladeWidth = bladeWidth;
+        this.weight = weight;
     }
 
     public double getBladeWidth() {

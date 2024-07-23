@@ -4,7 +4,10 @@ public class Truck extends Machine {
     private double loadCapacity;
     private int numberOfAxles;
 
-    public Truck() {
+    public Truck(String name, String color,double loadCapacity, int numberOfAxles) {
+        super(name, color);
+        this.loadCapacity = loadCapacity;
+        this.numberOfAxles = numberOfAxles;
     }
 
     public double getLoadCapacity() {

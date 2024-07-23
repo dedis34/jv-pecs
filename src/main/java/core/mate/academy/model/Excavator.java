@@ -4,7 +4,10 @@ public class Excavator extends Machine {
     private double bucketCapacity;
     private double armLength;
 
-    public Excavator() {
+    public Excavator(String name, String color, double bucketCapacity, double armLength) {
+        super(name, color);
+        this.bucketCapacity = bucketCapacity;
+        this.armLength = armLength;
     }
 
     public double getBucketCapacity() {
